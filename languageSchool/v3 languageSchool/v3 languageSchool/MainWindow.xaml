@@ -1,0 +1,148 @@
+﻿<Window x:Class="v3_languageSchool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:v3_languageSchool"
+        mc:Ignorable="d"
+        
+      Height="600" 
+        Width="600"
+        
+        MaxHeight="600"
+        MaxWidth="600"
+        
+        
+        MinHeight="600"
+        MinWidth="600"
+        Background="White"
+         Icon="Resources/school_logo.png"
+        Title="languageSchool"
+        >
+
+
+    <Grid>
+
+        <!--разметка страницы, нужна для более удобного размещение объектов-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
+
+
+
+
+    <!--Нижняя разметка цвета-->
+        <StackPanel
+            Grid.Row="7" 
+            Grid.Column="0"
+            Grid.ColumnSpan="10" 
+            Background="#e7fabf"></StackPanel>
+
+
+<!--логотип школы-->
+        
+        <!--Название школы-->
+        <StackPanel 
+            Grid.Row="0"
+            Grid.Column="2"
+            Grid.ColumnSpan="6" 
+            Grid.RowSpan="2" 
+            VerticalAlignment="Center" 
+            HorizontalAlignment="Center" >
+
+            <TextBlock 
+             Background="#e7fabf"
+             FontSize="30"  
+           FontFamily="Comic Sans MS" 
+            Text="languageSchool">
+            </TextBlock>
+        </StackPanel>
+
+
+        <!--Кнопка перехода к окну клиенты-->
+        <StackPanel 
+            Grid.ColumnSpan="3" 
+            VerticalAlignment="Center" 
+            Grid.Column="6"
+            Grid.Row="2">
+            
+            <Button 
+                Click="ButtonClient"
+                Background="#04a0ff"  >
+                <TextBlock 
+                    FontSize="15"  
+                    Text="Данные по клиентам" 
+                    FontFamily="Comic Sans MS"></TextBlock>
+            </Button>
+        </StackPanel>
+
+        <!--Кнопка по переходу к окну добавление данных о клиентах-->
+        <StackPanel 
+            Grid.ColumnSpan="3"
+            VerticalAlignment="Center" 
+            Grid.Column="6" Grid.Row="3">
+            <Button
+                Click="AddDataBase" 
+                Background="#04a0ff"  >
+                <TextBlock 
+                    FontSize="15" 
+                    Text="Добавление данных" 
+                    FontFamily="Comic Sans MS"></TextBlock>
+            </Button>
+        </StackPanel>
+
+        <!--Выход с приложения-->
+        <StackPanel 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Center" 
+            Grid.Column="10"
+            Grid.Row="0">
+            <Button
+                Click="ButtonExit"
+                Background="#04a0ff"  >
+                <TextBlock 
+                    FontSize="15"  
+                    Text="Выход" FontFamily="Comic Sans MS"
+                    ></TextBlock>
+            </Button>
+        </StackPanel>
+
+
+        <StackPanel 
+            Grid.ColumnSpan="3"
+            VerticalAlignment="Center" 
+            Grid.Column="6" Grid.Row="4">
+            <Button
+                Click="ButtonDelete" 
+                Background="#04a0ff"  >
+                <TextBlock 
+                    FontSize="15" 
+                    Text="удаление данных" 
+                    FontFamily="Comic Sans MS"></TextBlock>
+            </Button>
+        </StackPanel>
+
+    </Grid>
+</Window>

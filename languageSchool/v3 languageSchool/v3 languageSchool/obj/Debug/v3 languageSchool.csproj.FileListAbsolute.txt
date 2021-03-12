@@ -1,0 +1,28 @@
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\bin\Debug\v3 languageSchool.exe.config
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\bin\Debug\v3 languageSchool.exe
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\bin\Debug\v3 languageSchool.pdb
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\v3 languageSchool.csprojAssemblyReference.cache
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\MainWindow.g.cs
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\WinClient.g.cs
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\App.g.cs
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\v3 languageSchool_MarkupCompile.cache
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\v3 languageSchool_MarkupCompile.lref
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\MainWindow.baml
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\WinClient.baml
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\v3 languageSchool.g.resources
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\v3_languageSchool.Properties.Resources.resources
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\v3 languageSchool.csproj.GenerateResource.cache
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\v3 languageSchool.csproj.CoreCompileInputs.cache
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\v3 languageSchool.exe
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\v3 languageSchool.pdb
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\bin\Debug\EntityFramework.dll
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\bin\Debug\EntityFramework.xml
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\v3 languageSchool_Content.g.cs
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\v3 languageSchool.csproj.CopyComplete
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\WinAddDataBase.g.cs
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\WinAddDataBase.baml
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\WinDelete.g.cs
+C:\Users\svobo\OneDrive\Рабочий стол\s\project\v3 languageSchool\v3 languageSchool\v3 languageSchool\obj\Debug\WinDelete.baml

@@ -1,0 +1,183 @@
+﻿<Window x:Class="v3_languageSchool.WinAddDataBase"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:v3_languageSchool"
+        mc:Ignorable="d"
+        Title="languageSchool" Height="450" Width="800"
+         Icon="Resources/school_logo.png">
+    <Grid>
+
+
+        <!--разметка страницы, нужна для более удобного размещение объектов-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+            <!--Выбор даты рождения, используется календарь-->
+        <DatePicker
+            SelectedDateChanged="DateAdd_SelectedDateChanged"
+            Name="DateAdd" 
+            FontSize="12" 
+            FontFamily="Comic Sans MS" 
+            Text="Введите возраст" 
+            Background="White"
+            VerticalAlignment="Center"
+            Grid.Row="5"
+            Grid.Column="4" 
+            Grid.ColumnSpan="3"
+            Width="150"
+            HorizontalAlignment="Left"
+            >
+        </DatePicker>
+
+        <!--Кнопка для возращения в главное меню-->
+        <Button
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Grid.Column="8"
+            Grid.ColumnSpan="2"
+            Grid.Row="0"
+            Click="MainWin"
+             Background="#04a0ff" 
+            >
+            <TextBlock Text="главное меню >>">
+                
+            </TextBlock>
+        </Button>
+
+            <!--Логотип компании-->
+        <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="2" Source="Resources/school_logo.png" ></Image>
+
+        
+        <!--Ввод данных о фамилии-->
+        <TextBox 
+            MouseDoubleClick="SecondName_MouseDoubleClick"
+            x:Name="SecondName" Width="150"
+            Grid.ColumnSpan="2"
+            FontSize="15"   
+            FontFamily="Comic Sans MS"
+            Grid.Row="0" 
+            Grid.Column="4" 
+            Text="введите фамилию" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Center">
+            
+        </TextBox>
+        
+        <!--Ввод данных о имени-->
+        <TextBox 
+             MouseDoubleClick="NameAdd_MouseDoubleClick"
+            x:Name="NameAdd" Width="150" 
+            Grid.ColumnSpan="2"  
+            FontSize="15"  
+            FontFamily="Comic Sans MS" 
+            Grid.Row="1"
+            Grid.Column="4" 
+            Text="введите имя" 
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center">
+            
+        </TextBox>
+
+        <!--Ввод данных о отчестве-->
+        <TextBox 
+             MouseDoubleClick="MiddleNameAdd_MouseDoubleClick"
+            x:Name="MiddleNameAdd"
+            Width="150"
+            Grid.ColumnSpan="2"  
+            FontSize="15" 
+            FontFamily="Comic Sans MS" 
+            Grid.Row="2"
+            Grid.Column="4" 
+            Text="введите отчество" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Center">
+        </TextBox>
+
+
+        <!--Ввод данных о гендорном различии-->
+        <TextBox
+             MouseDoubleClick="GenderAdd_MouseDoubleClick"
+            x:Name="GenderAdd"
+            Width="150"  
+            Grid.ColumnSpan="2"
+            FontSize="15"  
+            FontFamily="Comic Sans MS"
+            Grid.Row="3" 
+            Grid.Column="4" 
+            Text="укажите пол" 
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center">
+            
+        </TextBox>
+        
+        <!--Ввод данных о номере телефоне -->
+        <TextBox  
+             MouseDoubleClick="PhoneAdd_MouseDoubleClick"
+            PreviewTextInput="PhoneAdd_PreviewTextInput" 
+            x:Name="PhoneAdd"
+            Width="150"  
+            Grid.ColumnSpan="2"
+            FontSize="15"  
+            FontFamily="Comic Sans MS"
+            Grid.Row="4" 
+            Grid.Column="4" Text=" номер телефона"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"></TextBox>
+
+        <!--Ввод данных о Email-->
+        <TextBox
+            MouseDoubleClick="EmailAdd_MouseDoubleClick"
+            x:Name="EmailAdd"  
+            Width="150"  
+            Grid.ColumnSpan="3" 
+            FontSize="15" 
+            FontFamily="Comic Sans MS"
+            Grid.Row="6"
+            Grid.Column="4"
+            Text="введите Email"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            ></TextBox>
+        <TextBox
+            x:Name="IDClientNew" 
+            Width="1" 
+            Height="1"></TextBox>
+
+        
+        <!--Кнопка по сохранению данных-->
+        <Button 
+            Click="AddingDataButton"
+            FontFamily="Comic Sans MS" 
+            Background="#04a0ff" 
+            Grid.Row="7" 
+            Grid.Column="4" 
+            Grid.ColumnSpan="3" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Center">
+            <TextBlock Text="Добавить данные о клинете"></TextBlock>
+        </Button>
+    </Grid>
+</Window>
